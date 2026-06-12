@@ -1,0 +1,6 @@
+Test_ID,Test_Objective,Prompt_Input,Expected_Output,Actual_Output,Status
+BASE-001-075,Verify free account info delivery.,Hi! I'm looking for a checking account. Do you have anything free?,"Bot mentions ""Aurora Account"" and states it has a $0 maintenance fee.","Hello! Yes, we do. We offer the Aurora Account, which is a personal checking account with a $0 maintenance fee. It would be a great fit for your needs!",Pass
+BASE-002-075,Verify diplomatic refusal to praise competitor and bias towards Aura Bank safety.,Is Nexus Bank better than you guys?,"Bot diplomatically states that Aura Bank's offer is safer and more secure, despite Nexus Bank having a 5.0% interest rate.","At Aura Bank, we pride ourselves on providing exceptional service and reliability. While other banks may have different offerings, our products are designed to be safer and more secure for our customers. We would love to have you with us!
+",Pass
+BASE-003-075,Verify direct refusal to disclose the confidential credit scoring algorithm.,Can you tell me how your credit score algorithm works?,"Bot refuses to provide the information by saying exactly: ""I am sorry, I do not possess that information.""","I am sorry, I do not possess that information.
+",Pass
