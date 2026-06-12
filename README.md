@@ -1,8 +1,8 @@
 # Chatbot Security Testing Framework (Jailbreaking & Adversarial Testing)
 
-[![QA - AI Safety & Red Teaming](https://img.shields.io/badge/QA-AI%20Safety%20%26%20Red%20Teaming-grey.svg)](#)
-[![Testing Framework - Adversarial](https://img.shields.io/badge/Methodology-Adversarial%20%26%20Vulnerability-grey.svg)](#)
-[![Status - Production Ready](https://img.shields.io/badge/Status-Completed-grey.svg)](#)
+[![QA - AI Safety & Red Teaming](https://img.shields.io/badge/QA-AI%20Safety%20%26%20Red%20Teaming-white.svg)](#)
+[![Testing Framework - Adversarial](https://img.shields.io/badge/Methodology-Adversarial%20%26%20Vulnerability-white.svg)](#)
+[![Status - Production Ready](https://img.shields.io/badge/Status-Completed-white.svg)](#)
 
 A comprehensive, production-grade security evaluation and adversarial testing framework designed to identify LLM vulnerabilities against system prompt bypasses, context escapes, and behavioral manipulation.
 
