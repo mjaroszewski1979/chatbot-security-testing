@@ -1,3 +1,5 @@
+![caption](https://https://github.com/mjaroszewski1979/chatbot-security-testing/blob/main/ai-red-team.jpg)
+
 # Chatbot Security Testing Framework (Jailbreaking & Adversarial Testing)
 
 [![QA - AI Safety & Red Teaming](https://img.shields.io/badge/QA-AI%20Safety%20%26%20Red%20Teaming-white.svg)](#)
