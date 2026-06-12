@@ -43,6 +43,7 @@ chatbot-security-testing/
 │       ├── 03_roleplay_scenarios.csv         # Hardened regression testing (All PASS)
 │       └── 04_virtualization_dan.csv         # Hardened regression testing (All PASS)
 └── README.md                                 # Technical documentation
+```
 
 ## Test Suite Architecture
 
