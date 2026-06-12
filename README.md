@@ -1,4 +1,4 @@
-![caption](https://https://github.com/mjaroszewski1979/chatbot-security-testing/blob/main/ai-red-team.jpg)
+![caption](https://github.com/mjaroszewski1979/chatbot-security-testing/blob/main/ai-red-team.jpg)
 
 # Chatbot Security Testing Framework (Jailbreaking & Adversarial Testing)
 
