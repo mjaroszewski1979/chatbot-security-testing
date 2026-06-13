@@ -91,6 +91,22 @@ To eliminate these vulnerabilities, the system prompt was re-engineered into **v
 
 ---
 
+## Environment Configuration & Model Hyperparameters
+
+To ensure strict reproducibility of this security benchmark, all test suites were executed within the Google AI Studio environment using a consistent foundational model architecture and specific hyperparameter settings.
+
+The detailed evaluation environment configuration is specified below:
+
+| Parameter | Configuration Value | Context / Technical Rationale |
+| :--- | :--- | :--- |
+| **Model Name** | `gemma-4-31b-it` | Open-weights instruction-tuned model utilized within the Google AI Studio Tier. |
+| **Temperature** | `0.2` & `0.75` | **0.2:** Evaluates baseline deterministic alignment.<br>**0.75:** Tests resilience against high probabilistic variation and creative jailbreaks. |
+| **Thinking Level**| `Minimal` | Constrains internal reasoning steps to evaluate direct, surface-level context enforcement. |
+| **Top P** | `0.95` | Controls cumulative probability for nucleus sampling, ensuring realistic token selection diversity. |
+| **Google Search Grounding** | `Disabled` | Deactivated to isolate internal prompt restrictions and prevent the model from relying on real-time web safety filters. |
+
+---
+
 ## How to Execute This Benchmark
 
 To reproduce or execute this benchmark suite within an evaluation environment (e.g., Google AI Studio Playground or a Python testing harness):
